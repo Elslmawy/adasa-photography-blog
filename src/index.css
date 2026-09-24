@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/* 1. الإعدادات الأساسية */
+@layer base {
+  * {
+    font-family: 'Tajawal', sans-serif;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #e5e5e5;
+    overflow-x: hidden;
+  }
+
+  /* شريط التمرير */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f97316;
+  }
+}
+
+/* 2. كلاسات المكونات */
+@layer components {
+  /* الزر الرئيسي */
+  .btn-primary {
+    cursor: pointer;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.2);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.35);
+  }
+
+  /* الزر الثانوي */
+  .btn-secondary {
+    cursor: pointer;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #333333;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+  }
+
+  .btn-secondary:hover {
+    color: #f97316;
+    background: rgba(249, 115, 22, 0.1);
+    border-color: #f97316;
+    transform: translateY(-2px);
+  }
+
+  /* كارت المقال */
+  .card {
+    border-radius: 1.5rem;
+    background: #161616;
+    border: 1px solid #262626;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+  }
+
+  .card:hover {
+    border-color: rgba(249, 115, 22, 0.3);
+    transform: translateY(-4px);
+  }
+
+  /* كارت بتأثير زجاجي */
+  .glass-card {
+    border-radius: 1.5rem;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(22, 22, 22, 0.8);
+    border: 1px solid #262626;
+  }
+
+  /* شارة الأقسام */
+  .section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #f97316;
+    background: rgba(249, 115, 22, 0.1);
+    border: 1px solid rgba(249, 115, 22, 0.3);
+    border-radius: 9999px;
+    margin-bottom: 1.5rem;
+  }
+
+  /* عنوان القسم */
+  .section-title {
+    font-size: 2.25rem;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  @media (min-width: 768px) {
+    .section-title {
+      font-size: 3rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-title {
+      font-size: 3.75rem;
+    }
+  }
+
+  /* وصف القسم */
+  .section-subtitle {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.625;
+    color: #a3a3a3;
+  }
+
+  /* تدرج لوني للنصوص */
+  .gradient-text {
+    background: linear-gradient(135deg, #f97316, #fbbf24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* حقل إدخال داكن */
+  .input-dark {
+    border-radius: 0.75rem;
+    width: 100%;
+    padding-inline: 1.25rem;
+    padding-block: 0.75rem;
+    color: #ffffff;
+    background-color: #161616;
+    border: 1px solid #262626;
+    transition: all 0.3s;
+  }
+
+  .input-dark:focus {
+    outline: none;
+    border-color: rgba(249, 115, 22, 0.5);
+    box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.3);
+  }
+
+  .input-dark::placeholder {
+    color: #737373;
+  }
+}
+
+/* 3. الحركات */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
