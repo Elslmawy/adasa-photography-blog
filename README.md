@@ -1,14 +1,14 @@
-# 📸 عدسة — Adasah | مدونة فن التصوير الفوتوغرافي
+# 📸 Adasah — Photography Blog
 
 <div align="center">
 
-  <img src="public/favicon.svg" alt="عدسة Logo" width="90" height="90" style="border-radius: 20px;" />
+  <img src="public/favicon.svg" alt="Adasah Logo" width="90" height="90" style="border-radius: 20px;" />
 
-  <h3>مدونة عربية متخصصة في فن وتقنيات التصوير الفوتوغرافي، نشارك معكم أسرار المحترفين ونصائح عملية لتطوير مهاراتكم.</h3>
+  <h3>A modern, responsive photography blog platform sharing professional tips, gear reviews, and creative insights.</h3>
 
   <p align="center">
     <a href="https://elslmawy.github.io/adasa-photography-blog/">
-      <img src="https://img.shields.io/badge/🌐_الموقع_اللايف-عرض_النسخة_الحية-f97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" height="40" />
+      <img src="https://img.shields.io/badge/🌐_Live_Demo-View_Live_Site-f97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" height="40" />
     </a>
   </p>
 
@@ -17,132 +17,116 @@
     <img src="https://img.shields.io/badge/Vite-8.3-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-v4.3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS v4" />
     <img src="https://img.shields.io/badge/React_Router-v7.1-CA4245?style=flat-square&logo=react-router&logoColor=white" alt="React Router 7" />
-    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" />
   </p>
 
 </div>
 
 ---
 
-## 🌟 نظرة عامة (Overview)
+## 🌟 Overview
 
-**عدسة (Adasah)** هي منصة تدوين عصرية وتفاعلية مخصصة لهواة ومحترفي التصوير الفوتوغرافي. تم بناؤها باستخدام أحدث تقنيات الويب مع التركيز على التصميم الداكن الفاخر (Dark Aesthetic)، وتجربة المستخدم السلسة، ودعم كامل للغة العربية (RTL).
+**Adasah (عدسة)** is a premium, feature-rich photography blog built with React 19, Vite 8, and Tailwind CSS v4. It delivers a fast, immersive single-page application (SPA) experience with a sleek dark aesthetic, warm amber gradients, smooth animations, and full Arabic RTL typography.
 
 ---
 
-## 🚀 المعاينة الحية (Live Demo)
+## 🚀 Live Demo
 
-يمكنك تجربة الموقع مباشرة عبر GitHub Pages من خلال الرابط التالي:
+Experience the live application hosted on GitHub Pages:
 
 👉 **[https://elslmawy.github.io/adasa-photography-blog/](https://elslmawy.github.io/adasa-photography-blog/)**
 
 ---
 
-## ✨ المميزات الرئيسية (Key Features)
+## ✨ Key Features
 
-- 🎨 **تصميم داكن فاخر (Dark Glassmorphism)**: تدرجات لونية برتقالية دافئة متناسقة، خلفيات شبكية مضيئة، ومؤثرات حركية ناعمة.
-- 🔍 **بحث وفلترة فورية**: إمكانية البحث الفوري في عناوين ونصوص المقالات، وفلترة المقالات حسب التصنيفات (إضاءة، بورتريه، مناظر طبيعية، تقنيات، معدات).
-- 🔀 **تبديل نمط العرض**: إمكانية عرض المقالات بنمط الشبكة (Grid View) أو القائمة الأفقية (List View).
-- 📑 **صفحة تفاصيل المقال التفاعلية**:
-  - غلاف سينمائي عريض مع بيانات الكاتب والتاريخ.
-  - فهرس محتويات جانبي ذكي (Sticky Table of Contents) للتنقل السريع بين أقسام المقال.
-  - أزرار مشاركة سريعة على وسائل التواصل الاجتماعي (X / Twitter, LinkedIn, WhatsApp) ونسخ الرابط.
-  - قسم "مقالات قد تعجبك" ذات صلة بنفس التصنيف.
-- 🔢 **نظام ترقيم صفحات مرن (Pagination)**: تقسيم المقالات بمعدل 6 مقالات لكل صفحة مع أزرار تنقل تفاعلية.
-- 📱 **متجاوب 100% (Responsive Design)**: تجربة متكاملة على شاشات الهواتف، الأجهزة اللوحية، وشاشات الحواسب مع قائمة تنقل منسدلة للشاشات الصغيرة.
-- ⚡ **أداء فائق السرعة**: استخدام Vite 8 و React 19 لتحميل فوري وانتقال سلس بين الصفحات (SPA).
+- 🎨 **Dark Glassmorphism UI**: Sleek dark theme (`#0a0a0a`) with glowing ambient blobs, warm amber/orange accents, and smooth micro-interactions.
+- 🔍 **Real-Time Search & Filtering**: Instant search across 28 articles with multi-category filters (Lighting, Portraits, Landscapes, Techniques, Gear).
+- 🔀 **Grid & List View Toggle**: Seamlessly switch between a modern card grid view and an expansive horizontal list layout.
+- 📑 **Rich Article Reader**:
+  - Full-width hero cover with reading time and author credentials.
+  - Sticky interactive Table of Contents (TOC) with smooth scrolling.
+  - Social media sharing (X/Twitter, LinkedIn, WhatsApp) and one-click link copying.
+  - Curated "Related Articles" recommendation section.
+- 🔢 **Dynamic Pagination**: Clean pagination system with 6 articles per page and smart ellipsis navigation.
+- 📱 **100% Responsive Design**: Optimized across mobile, tablet, and desktop screens with an animated mobile drawer navigation.
+- ⚡ **Lightning Fast Performance**: Zero-lag routing powered by React Router with instant client-side transitions.
 
 ---
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
+## 🛠️ Tech Stack
 
-| التقنية / المكتبة | الوصف |
+| Technology | Purpose |
 | :--- | :--- |
-| **[React 19](https://react.dev/)** | مكتبة بناء واجهات المستخدم التفاعلية |
-| **[Vite 8](https://vitejs.dev/)** | أداة البناء والتطوير فائقة السرعة |
-| **[Tailwind CSS v4](https://tailwindcss.com/)** | إطار العمل الأحدث لتنسيق وتصميم العناصر |
-| **[React Router 7](https://reactrouter.com/)** | إدارة المسارات والتنقل بين الصفحات (`HashRouter`) |
-| **[Tajawal Font](https://fonts.google.com/specimen/Tajawal)** | خط تجوال العربي الأنيق لجميع النصوص |
-| **[Font Awesome 6](https://fontawesome.com/)** | حزمة الأيقونات المتنوعة |
-| **[gh-pages](https://github.com/tschaub/gh-pages)** | أتمتة الرفع والنشر على GitHub Pages |
+| **[React 19](https://react.dev/)** | Core UI component library |
+| **[Vite 8](https://vitejs.dev/)** | High-performance build tool and dev server |
+| **[Tailwind CSS v4](https://tailwindcss.com/)** | Modern utility-first styling engine |
+| **[React Router 7](https://reactrouter.com/)** | Client-side routing and navigation (`HashRouter`) |
+| **[Tajawal Font](https://fonts.google.com/specimen/Tajawal)** | Clean Arabic typography |
+| **[Font Awesome 6](https://fontawesome.com/)** | Comprehensive vector icon set |
+| **[gh-pages](https://github.com/tschaub/gh-pages)** | Automated deployment pipeline to GitHub Pages |
 
 ---
 
-## 📂 هيكل المشروع (Project Structure)
+## 📂 Project Structure
 
 ```bash
 week-1-react/
-├── public/                  # الأصول العامة (الأيقونات والشعار)
-│   ├── favicon.svg
-│   └── icons.svg
+├── public/                  # Static assets & favicon
 ├── src/
-│   ├── assets/              # الصور والشعارات المحلية
-│   ├── components/          # المكونات القابلة لإعادة الاستخدام
-│   │   ├── BlogCard.jsx     # كارت المقال (شبكي، مميز، وقائمة)
-│   │   ├── CategoryCard.jsx # كارت تصنيف المقالات
-│   │   ├── Footer.jsx       # تذييل الصفحة
-│   │   ├── Layout.jsx       # الهيكل العام والتمرير للأعلى
-│   │   └── Navbar.jsx       # شريط التنقل العلوي
-│   ├── data/                # البيانات الثابتة للمدونة
-│   │   ├── posts.json       # قاعدة بيانات الـ 28 مقالة
-│   │   └── siteData.js      # إعدادات الموقع والتصنيفات
-│   ├── pages/               # صفحات التطبيق
-│   │   ├── HomePage.jsx     # الصفحة الرئيسية
-│   │   ├── BlogPage.jsx     # صفحة تصفح وفلترة المقالات
-│   │   ├── BlogDetailsPage.jsx # صفحة قراءة المقال
-│   │   ├── AboutPage.jsx    # صفحة من نحن
-│   │   ├── PrivacyPage.jsx  # صفحة سياسة الخصوصية
-│   │   ├── TermsPage.jsx    # صفحة شروط الخدمة
-│   │   └── NotFoundPage.jsx # صفحة الخطأ 404
-│   ├── App.jsx              # الراوتر الرئيسي للتطبيق
-│   ├── index.css            # التنسيقات العامة وكلاسات Tailwind
-│   └── main.jsx             # نقطة الدخول للتطبيق
-├── vite.config.js           # إعدادات Vite ومسار النشر
-└── package.json             # الاعتماديات وأوامر التشغيل
+│   ├── assets/              # Local image assets
+│   ├── components/          # Reusable UI components
+│   │   ├── BlogCard.jsx     # Article cards (Grid, Featured, and List views)
+│   │   ├── CategoryCard.jsx # Topic category card
+│   │   ├── Footer.jsx       # Global footer with newsletter & social links
+│   │   ├── Layout.jsx       # App shell layout & auto-scroll on route change
+│   │   └── Navbar.jsx       # Sticky header & responsive mobile navigation
+│   ├── data/                # Static blog data
+│   │   ├── posts.json       # Database containing 28 blog articles
+│   │   └── siteData.js      # Central site configuration & category data
+│   ├── pages/               # Route pages
+│   │   ├── HomePage.jsx     # Landing page with hero, featured posts & stats
+│   │   ├── BlogPage.jsx     # Blog archive with search, filters & pagination
+│   │   ├── BlogDetailsPage.jsx # Article reader with sidebar TOC & sharing
+│   │   ├── AboutPage.jsx    # About us, mission, values & author team
+│   │   ├── PrivacyPage.jsx  # Privacy policy page
+│   │   ├── TermsPage.jsx    # Terms of service page
+│   │   └── NotFoundPage.jsx # 404 error page with quick links
+│   ├── App.jsx              # Client router configuration
+│   ├── index.css            # Design tokens, custom utilities & Tailwind setup
+│   └── main.jsx             # React entry point
+├── vite.config.js           # Vite configuration & base path
+└── package.json             # Dependencies and project scripts
 ```
 
 ---
 
-## 💻 التشغيل محلياً (Run Locally)
+## 💻 Getting Started
 
-اتبع هذه الخطوات لتشغيل المشروع على جهازك:
+Follow these steps to run the project locally:
 
-### 1. استنساخ المستودع (Clone the Repository)
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Elslmawy/adasa-photography-blog.git
 cd adasa-photography-blog
 ```
 
-### 2. تثبيت الحزم (Install Dependencies)
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-### 3. تشغيل خادم التطوير (Run Development Server)
+### 3. Start Development Server
 ```bash
 npm run dev
 ```
-افتح المتصفح على: `http://localhost:5173/`
+Open your browser at: `http://localhost:5173/`
 
-### 4. بناء المشروع للإنتاج (Build for Production)
+### 4. Build for Production
 ```bash
 npm run build
 ```
 
-### 5. النشر على GitHub Pages (Deploy)
+### 5. Deploy to GitHub Pages
 ```bash
 npm run deploy
 ```
-
----
-
-## 👨‍💻 المطور (Author)
-
-- **Muhamed Elslmawy**
-- **GitHub:** [@Elslmawy](https://github.com/Elslmawy)
-
----
-
-## 📄 الترخيص (License)
-
-هذا المشروع مفتوح المصدر تحت ترخيص **MIT License**.
